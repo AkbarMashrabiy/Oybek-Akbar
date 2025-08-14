@@ -1,11 +1,11 @@
 package org.example;
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+import org.example.service.AccountService;
+import org.example.service.AuthService;
+
 public class Main {
     public static void main(String[] args) {
-
-
-
-
+        AuthService authService = new AuthService();
+        authService.service();
     }
 }
